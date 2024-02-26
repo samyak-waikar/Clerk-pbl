@@ -1,0 +1,39 @@
+
+.sign-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 70px;
+  margin-right: 70px; */
+  margin: 10px;
+} 
+
+.sign-btn h1{
+  /* padding: 2px; */
+  font-size: 50px;
+  color:black;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+ .sign-btn button{
+  display: flex;
+  color: #8552cd;
+  justify-content: center;
+  /* align-items: center; */
+  width: 200px;
+  height: 59px;
+  /* color: white; */
+  background: #eaeaea;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  height: 50px;
+} 
+
+.sign-btn button:hover{
+  color: #eaeaea;
+  background: #8552cd;
+}
